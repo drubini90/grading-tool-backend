@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "/app.js"
+    }
+  ],
+  "env": {
+    "CLIENT_BASE_URL": "https://<name>.<username>.now.sh",
+    "MONGO_DB_CONNECTION": "",
+    "NODE_ENV": "production",
+    "SECRET_KEY": ""
+  }
+}

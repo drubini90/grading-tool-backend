@@ -1,0 +1,35 @@
+{
+  "name": "grading-tool-backend",
+  "version": "1.0.0",
+  "description": "This repository contains apis for the final project - student grading tool",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "debug": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drubini90/grading-tool-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drubini90/grading-tool-backend/issues"
+  },
+  "homepage": "https://github.com/drubini90/grading-tool-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "morgan": "^1.9.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "validator": "^11.1.0"
+  }
+}
